@@ -38,7 +38,7 @@
 그리고 `set::map` 또는 `TreeMap`에서도 해당 문제 번호를 삭제합니다.
 이 쿼리를 수행하는데 시간복잡도 <img src="https://render.githubusercontent.com/render/math?math=O(logN)">으로 할 수 있습니다.
 
-### `std::priority_queue`, `PriorityQueue`를 이용한 풀이
+### `std::priority_queue`, `PriorityQueue`, `heapq`를 이용한 풀이
 
 우선순위 큐를 이용하면 최대 힙, 최소 힙 두 가지를 가지고 있어야 합니다.  
 우선순위 큐에는 (난이도, 문제 번호)
